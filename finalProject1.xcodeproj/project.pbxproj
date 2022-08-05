@@ -17,6 +17,11 @@
 		1E34047E2899A53400F86A62 /* finalProject1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34047D2899A53400F86A62 /* finalProject1Tests.swift */; };
 		1E3404882899A53400F86A62 /* finalProject1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3404872899A53400F86A62 /* finalProject1UITests.swift */; };
 		1E34048A2899A53400F86A62 /* finalProject1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3404892899A53400F86A62 /* finalProject1UITestsLaunchTests.swift */; };
+		1E690BFD289C16BD00E16AF1 /* cameraCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E690BFC289C16BD00E16AF1 /* cameraCalendarViewController.swift */; };
+		1E690C03289CCC6A00E16AF1 /* breathingGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E690C02289CCC6A00E16AF1 /* breathingGuideViewController.swift */; };
+		1E690C05289CCD2B00E16AF1 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E690C04289CCD2B00E16AF1 /* Swift+Gif.swift */; };
+		1E690C07289CD99F00E16AF1 /* IMG_0097.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 1E690C06289CD99F00E16AF1 /* IMG_0097.GIF */; };
+		1E690C09289D5E4A00E16AF1 /* dailyCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E690C08289D5E4900E16AF1 /* dailyCheckInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		1E3404832899A53400F86A62 /* finalProject1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProject1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3404872899A53400F86A62 /* finalProject1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProject1UITests.swift; sourceTree = "<group>"; };
 		1E3404892899A53400F86A62 /* finalProject1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProject1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E690BFC289C16BD00E16AF1 /* cameraCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraCalendarViewController.swift; sourceTree = "<group>"; };
+		1E690C02289CCC6A00E16AF1 /* breathingGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingGuideViewController.swift; sourceTree = "<group>"; };
+		1E690C04289CCD2B00E16AF1 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		1E690C06289CD99F00E16AF1 /* IMG_0097.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = IMG_0097.GIF; sourceTree = "<group>"; };
+		1E690C08289D5E4900E16AF1 /* dailyCheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyCheckInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,15 @@
 		1E3404622899A53200F86A62 /* finalProject1 */ = {
 			isa = PBXGroup;
 			children = (
+				1E690C02289CCC6A00E16AF1 /* breathingGuideViewController.swift */,
+				1E690BFC289C16BD00E16AF1 /* cameraCalendarViewController.swift */,
 				1E3404632899A53200F86A62 /* AppDelegate.swift */,
 				1E3404652899A53200F86A62 /* SceneDelegate.swift */,
 				1E3404672899A53200F86A62 /* ViewController.swift */,
+				1E690C04289CCD2B00E16AF1 /* Swift+Gif.swift */,
 				1E3404692899A53200F86A62 /* Main.storyboard */,
+				1E690C08289D5E4900E16AF1 /* dailyCheckInViewController.swift */,
+				1E690C06289CD99F00E16AF1 /* IMG_0097.GIF */,
 				1E34046F2899A53400F86A62 /* Assets.xcassets */,
 				1E3404712899A53400F86A62 /* LaunchScreen.storyboard */,
 				1E3404742899A53400F86A62 /* Info.plist */,
@@ -234,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E690C07289CD99F00E16AF1 /* IMG_0097.GIF in Resources */,
 				1E3404732899A53400F86A62 /* LaunchScreen.storyboard in Resources */,
 				1E3404702899A53400F86A62 /* Assets.xcassets in Resources */,
 				1E34046B2899A53200F86A62 /* Main.storyboard in Resources */,
@@ -261,9 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E690C05289CCD2B00E16AF1 /* Swift+Gif.swift in Sources */,
 				1E34046E2899A53200F86A62 /* finalProject1.xcdatamodeld in Sources */,
+				1E690BFD289C16BD00E16AF1 /* cameraCalendarViewController.swift in Sources */,
 				1E3404682899A53200F86A62 /* ViewController.swift in Sources */,
+				1E690C09289D5E4A00E16AF1 /* dailyCheckInViewController.swift in Sources */,
 				1E3404642899A53200F86A62 /* AppDelegate.swift in Sources */,
+				1E690C03289CCC6A00E16AF1 /* breathingGuideViewController.swift in Sources */,
 				1E3404662899A53200F86A62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +464,7 @@
 				DEVELOPMENT_TEAM = XLK76HG8KX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = finalProject1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Color Your Mind";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,6 +493,7 @@
 				DEVELOPMENT_TEAM = XLK76HG8KX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = finalProject1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Color Your Mind";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
